@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: normal;
+    color: #0f141e;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    background: #f1f1f1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.info {
+    display: flex;
+}
+
+.avatar {
+    width: auto;
+    margin-top: 28px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info-text {
+    margin-left: 40px;
+    margin-bottom: 28px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+}
+
+.card {
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.hobby {
+    background: rgba(23, 224, 224, 0.829)
+}
+
+.work {
+    background: rgba(77, 223, 10, 0.568);
+    padding-bottom: 40px;
+}
+
+.form {
+    background: rgba(245, 79, 79, 0.795);
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+.btn {
+    background: #3675e9;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: inherit;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+}
+
+.btn:hover {
+    opacity: .8;
+    box-shadow: 0 0 0;
+    /* color: orange; */
+}
+
+.list {
+    margin: 0;
+    padding: 0 0 20px 20px;
+    color: #888;
+}
+
+.list li {
+    margin-top: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #888;
+}
+
+.form-zag {
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* display: block; */
+    text-align: center;
+}
+
+.contacts {
+    width: 100%;
+    /* display: inline; */
+}
+
+.contact {
+    width: 40%;
+    display: inline-block;
+}
+
+.contact input {
+    font-size: 18px;
+}
+
+.textarea {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .avatar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info-text {
+        text-align: center;
+        margin-left: 0;
+    }
+}
